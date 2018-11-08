@@ -6,6 +6,5 @@ def display_rainbow(array)
   while i < array.length
     temp << "#{array[i][0].upcase}: array[i]"
   end
-  console.log(temp)
-  return temp
+  print temp
 end
