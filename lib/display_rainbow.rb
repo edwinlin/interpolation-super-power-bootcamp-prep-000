@@ -5,6 +5,7 @@ def display_rainbow(array)
   var i = 0
   while i < array.length
     temp << "#{array[i][0].upcase}: array[i]"
+    i++
   end
   print temp
 end
