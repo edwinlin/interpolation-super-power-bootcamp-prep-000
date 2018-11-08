@@ -3,6 +3,6 @@
 def display_rainbow(array)
   var i = 0
   while i < array.length
-    puts "#{array[i][0].toUp}"
+    puts "#{array[i][0].upcase}: array[i]"
   end
 end
